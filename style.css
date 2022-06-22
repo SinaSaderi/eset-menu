@@ -1,0 +1,50 @@
+body {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.btn-hover{
+    background: #ccc;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 200px;
+    position: relative;
+}
+
+.btn-hover:hover{
+    background: #333;
+}
+
+.btn-hover:hover .hover-div{
+    display: block;
+    transition: 0.3s;
+}
+
+.hover-div{
+    position: absolute;
+    display: none;
+    transition: 0.3s;
+    left: 0px;
+}
+.hover-div ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.hover-div ul li{
+    width: 100px;
+    padding: 5px;
+    background: #222;
+    border-top: 1px solid #FFF;
+    transition: 0.3s;
+}
+
+.hover-div ul li:hover{
+    background-color: #777;
+    
+}

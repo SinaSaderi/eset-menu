@@ -1,0 +1,98 @@
+body {
+    background-color: #0096a1;
+}
+
+.navbar-brand {
+    color: #FFF;
+}
+
+.nav-link,
+.nav-link:hover {
+    color: #FFF;
+    line-height: 4rem;
+}
+
+.navbar {
+    transition: 0.3s;
+}
+
+.navbar:hover {
+    background-color: #2222229c;
+}
+
+.tabs-left {
+    border-bottom: none;
+}
+
+.tabs-left>li {
+    float: none;
+    margin: 0px;
+
+}
+
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.nav-tabs>li>a:hover {
+    /* margin-right: 2px; */
+    line-height: 1.42857143;
+    /* border-radius: 4px 4px 0 0; */
+}
+
+.tabs-left>li.active>a::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    display: block;
+    width: 0;
+}
+
+.nav{
+    flex-direction: column;
+}
+
+.menu-tabs{
+    background-color: #222222;
+    display: flex;
+}
+.menu-tabs ul{}
+.menu-tabs ul li{
+    width: 302px;
+}
+.menu-tabs ul li a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+}
+.menu-tabs ul li a.active{
+    background-color: #444444;
+}
+
+.tab-content{
+    background-color: #444444 ;
+    padding: 20px;
+    width: 100%;
+    min-width: 500px;
+}
+.tab-content .tab-pane{
+    color: #FFF
+}
+
+.nav-item .menu-tabs{
+    position: absolute;
+    display: none;
+}
+
+.nav-item:hover{
+    background-color: #222222 ;
+}
+.nav-item:hover .menu-tabs{
+    display: flex;
+}
